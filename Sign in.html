@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="NavOrFoot-style.css">   
+    <script src="project.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+
+  <!-- nav fixed work -->
+  <body onload="mynavbar()" onscroll="mynavbar()">
+    <!-- nav fixed work -->
+  
+
+    
+<!-- header start -->
+    
+<header>
+
+  <div class="container-fluid ">
+  <div class="row">
+  
+  <div class="col-md-5">
+  <img class="ms-4 ps-1  mt-2"  src="./images/logo2.jpg"  height="40px"></img>
+  </div>
+      
+  
+  <div class="col-md-5 visually-hidden" >
+      <form class="d-flex ">
+        <input id="inp" class="form-control mt-4 " type="search products" placeholder="Search" aria-label="Search" >
+        <button id="bt" class="btn btn-dark mt-4  p-1 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>   
+      </div>
+  
+  <style>
+
+  </style>
+
+
+  <div class="col-md-1 mt-4  ms-auto me-5 ">
+  <p id="emailset"></p>
+</div>
+
+  
+  <div class="col-md-1 mt-4">
+  <center><a class="hover" href="Sign in.html" ><i class="fa-solid fa-user" style="font-size: 20px;" ></i></a></center>
+  <!-- <center>SIGN IN</center> -->
+</div>  
+   
+       <nav class="navbar  navbar-expand-lg navbar-light bg-white w-100 " id="secondnavbar" style="z-index: 1;" >
+           <div class="container-fluid ">
+             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav  mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link " href="index.html" >HOME</a>
+                   <span class="hovereffect" ></span>
+                 </li>
+
+                 <li class="nav-item dropdown ">
+                   <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     BRANDS<i class="fa-solid fa-angle-down"></i>
+                   </a>
+                   <span class="hovereffect"></span>
+                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     
+                     <li><a class="dropdown-item " >NAILART PRO<i class="fa-solid fa-angle-down"></i></a>
+                       
+                       <ul class="list-unstyled innerlist " >
+                         <li><a href="NGP.html" class="nav-link text-decoration-none text-dark">NAIL GEL POLISH</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                     
+                         <li><a href="NT.html" class="nav-link text-decoration-none text-dark">NAIL TOOLS</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                         
+                       </ul>
+                     </li>
+                     
+                     
+                     <li><a class="dropdown-item" >NICOLE DIARY<i class="fa-solid fa-angle-down"></i></a>
+                       <ul class="list-unstyled innerlist" >
+                         <li><a href="ND2.html" class="nav-link text-decoration-none text-dark">ND STAMPING PLATES</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                         <li><a href="NDT2.html" class="nav-link text-decoration-none text-dark">STAMPING TOOLS</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                       </ul>
+                     </li>
+                     
+                     
+                     <li><a class="dropdown-item" >UR SUGAR<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="UR3.html" class="nav-link text-decoration-none text-dark">UR EXTENSION GEL</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                        <li><a href="URT3.html" class="nav-link text-decoration-none text-dark">UR NAIL TOOLS</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li><a class="dropdown-item" >NAIL ART DECORATION<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="3DND4.html" class="nav-link text-decoration-none text-dark">3D NAIL DECORATION</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                        <li><a href="NS4.html" class="nav-link text-decoration-none text-dark">NAIL STICKERS</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li><a class="dropdown-item" >LILYCUTE<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="LCGP5.html" class="nav-link text-decoration-none text-dark">LC GEL POLISH</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                     
+                   </ul>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link " href="product1.html">PRODUCTS</a>
+                  <span class="hovereffect"></span>
+                </li>
+                 <li class="nav-item">
+                   <a class="nav-link " href="feedback form.html">FEEDBACK</a>
+                   <span class="hovereffect"></span>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link "   href="Contactus.html">CONTACT US</a>
+                   <span class="hovereffect"></span>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link " href="about us.html">ABOUT US</a>
+                   <span class="hovereffect"></span>
+                 </li>
+              
+               </ul>
+             
+             </div>
+           </div>
+         </nav>
+       
+         </header>
+
+         <!-- header end -->
+
+
+
+
+  
+<!-- start container -->
+
+<style>
+
+
+  .bg{
+    background-image: url(./images/about1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+<div class="container-fluid bg">
+<div class=" container  " style="padding-top: 100px; padding-bottom: 105px;" data-aos="fade-up" 
+data-aos-duration="3000" >
+
+<div class="row mt-5 p-3 pt-5" style="border: 1px dashed black;">
+    <center><h2>SIGN IN</h2>
+        <hr style="width: 47%;">
+    </center>
+    <div class="col-md-3"></div>
+    <div class="col-md-6 p-4">
+      <form action="" id="signin">
+        <label for="">EMAIL ADDRESS</label>
+        <input class="form-control" type="email" id="email" width="100%" placeholder="please enter your email" required>
+        <br>
+        <label for="">PASSWORD</label>
+        <input class="form-control" type="password" width="100%" placeholder="please enter the password" required>
+        <br> 
+        <button type="submit" class="btn btn-dark" style="width: 100%;">SIGN IN</button>
+      </form>
+        <center>
+        <hr class="mt-5" style="width: 100%;"
+        </center>
+        <br>
+        <center><h4>OR</h4>
+        <br>
+        <h3>LOGIN WITH<a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-facebook-square"></i></a></h3>
+        </center>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+
+</div>
+</div>
+<!-- Container end -->
+
+
+
+
+
+<!-- Starting Footer -->
+<footer class="foot container-fluid bg-dark" >
+
+  <div class="container text-white  p-3">
+  <div class="row p-1">
+  <div class="col-md-3">
+  <h3 class=" mt-4 ">QUICK LINKS</h3>
+   <ul class="list" style="padding-top: 20px;">
+     <li>
+  <a href="index.html">HOME <i class="fa-solid fa-house"></i></a>
+  
+     </li>
+     <li>
+  <a href="product1.html">PRODUCTS <i class="fa-solid fa-bag-shopping"></i></a>
+  
+     </li>
+     <li>
+  <a href="Contactus.html">CONTACT US  <i class="fa-solid fa-phone"></i></a>
+  
+     </li>
+     <li>
+  <a href="about us.html">ABOUT US<i class="fa-brands fa-angular"></i></a>
+  
+     </li>
+     <li>
+  <a href="feedback form.html">FEEDBACK <i class="fa-solid fa-comments"></i></a>
+  
+     </li>
+     <li>
+  <a href="Sign in.html">SIGN IN <i class="fa-solid fa-user"></i></a>
+  
+     </li>
+   </ul> 
+  </div>
+  <div class="col-md-3  mt-4">
+    <center><h3>ABOUT US</h4></center>
+    <br><br><br>
+    We are all natural organic nail products.we have the best nail polish that is easy to use and we have various nail design that are customer also love and also we have the best service in town.
+  </div>
+  <div class="col-md-3  mt-4 ">
+  <center><h5>FOLLOW US ON
+    <br>
+    SOCIAL MEDIA
+  </h5></center>
+  <br><br><br>
+    <ul class="icon" >
+
+   <li ><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li> 
+   <li ><a href="#"><i  class="fa-brands fa-instagram"></i></a></li> 
+   <li ><a href="#"><i class="fa-brands fa-youtube"></i></a></li> 
+   <li ><a href="#"><i class="fa-brands fa-twitter"></i></a></li> 
+</ul>  
+  </div>
+  <div class="col-md-3 mt-4" >
+    
+  <center><h5>SUBSCRIBE NEWSLETTER</h5></center>
+  <br><br><br>
+  <input style="border-radius: 5px;" class="form-control-sm mt-4 pt-1 p-2 ms-4" type="email" placeholder="Enter Email"><button style="height: 34px; width: 50px;" class="btn p-1 btn-outline-light" type="submit">SEND</button>
+  
+  </div>
+  
+  </div>
+  <hr>
+  <br>
+  <center >
+    <p >©2022  NAIL ART Copyright All Rights Reserved.</p> 
+  </center>
+  </div>
+     
+    </div>
+  </div>
+  
+  
+  </footer>
+    <!-- footer End -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  
+<script src="project.js"></script>    
+    
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

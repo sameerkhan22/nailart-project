@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="NavOrFoot-style.css">   
+    <script src="project.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+
+
+<body>
+
+  <script>
+    function bothnavbar(){
+      mynavbar();
+      showbtn();
+    }
+  </script>
+
+
+  <!-- nav fixed work -->
+  <body onload="mynavbar()" onscroll="bothnavbar()">
+    <!-- nav fixed work -->
+  
+  
+
+
+<!-- header start -->
+    
+<header>
+
+  <div class="container-fluid ">
+  <div class="row">
+  
+  <div class="col-md-5">
+  <img class="ms-4 ps-1  mt-2"  src="./images/logo2.jpg"  height="40px"></img>
+  </div>
+      
+  
+  <div class="col-md-5 visually-hidden" >
+      <form class="d-flex ">
+        <input id="inp" class="form-control mt-4 " type="search products" placeholder="Search" aria-label="Search" >
+        <button id="bt" class="btn btn-dark mt-4  p-1 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>   
+      </div>
+  
+  <style>
+
+  </style>
+
+
+<div class="col-md-1 mt-4  ms-auto me-5 ">
+  <p id="emailset"></p>
+</div>
+
+  
+  <div class="col-md-1 mt-4">
+  <center><a class="hover" href="Sign in.html" ><i class="fa-solid fa-user" style="font-size: 20px;" ></i></a></center>
+  <!-- <center>SIGN IN</center> -->
+</div>  
+   
+       <nav class="navbar  navbar-expand-lg navbar-light bg-white w-100 " id="secondnavbar" style="z-index: 1;" >
+           <div class="container-fluid ">
+             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav  mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link active " href="index.html" >HOME</a>
+                   <span class="hovereffect" ></span>
+                 </li>
+
+                 <li class="nav-item dropdown ">
+                   <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     BRANDS<i class="fa-solid fa-angle-down"></i>
+                   </a>
+                   <span class="hovereffect"></span>
+                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     
+                     <li><a class="dropdown-item " >NAILART PRO<i class="fa-solid fa-angle-down"></i></a>
+                       
+                       <ul class="list-unstyled innerlist " >
+                         <li><a href="NGP.html" class="nav-link text-decoration-none text-dark">NAIL GEL POLISH</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                     
+                         <li><a href="NT.html" class="nav-link text-decoration-none text-dark">NAIL TOOLS</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                         
+                       </ul>
+                     </li>
+                     
+                     
+                     <li><a class="dropdown-item" >NICOLE DIARY<i class="fa-solid fa-angle-down"></i></a>
+                       <ul class="list-unstyled innerlist" >
+                         <li><a href="ND2.html" class="nav-link text-decoration-none text-dark">ND STAMPING PLATES</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                         <li><a href="NDT2.html" class="nav-link text-decoration-none text-dark">STAMPING TOOLS</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                       </ul>
+                     </li>
+                     
+                     
+                     <li><a class="dropdown-item" >UR SUGAR<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="UR3.html" class="nav-link text-decoration-none text-dark">UR EXTENSION GEL</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                        <li><a href="URT.html" class="nav-link text-decoration-none text-dark">UR NAIL TOOLS</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li><a class="dropdown-item" >NAIL ART DECORATION<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="3D.html" class="nav-link text-decoration-none text-dark">3D NAIL DECORATION</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                        <li><a href="NS.html" class="nav-link text-decoration-none text-dark">NAIL STICKERS</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li><a class="dropdown-item" >LILYCUTE<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="LC.html" class="nav-link text-decoration-none text-dark">LC GEL POLISH</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                     
+                   </ul>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link " href="product1.html">PRODUCTS</a>
+                  <span class="hovereffect"></span>
+                </li>
+                 <li class="nav-item">
+                   <a class="nav-link " href="feedback form.html">FEEDBACK</a>
+                   <span class="hovereffect"></span>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link "   href="Contactus.html">CONTACT US</a>
+                   <span class="hovereffect"></span>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link " href="about us.html">ABOUT US</a>
+                   <span class="hovereffect"></span>
+                 </li>
+              
+               </ul>
+             
+             </div>
+           </div>
+         </nav>
+       
+         </header>
+
+         <!-- header end -->
+
+
+
+<!-- color start -->
+<div style="background-color: #F2D2BD;">
+  <!-- color start -->
+
+
+    <!-- slider start -->
+   
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="padding-top: 100px;"data-aos="fade-up"data-aos-duration="3000">
+      <div class="carousel-inner container">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-item active">
+          <img src="./images/slide6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/slide5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/slide3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+     
+      </div>
+     
+    <!-- slider end -->
+
+
+<!-- container start -->
+
+<div class="container mt-5"  data-aos="fade-up"data-aos-duration="3000">
+<h3>Promotion</h3>
+<div class="row ">
+  <div class="col-md-3 ">
+    <div class="card" >
+      <img src="./images/promotion1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">    Pro 15ml Black Gold Series 60 Colors Nail Gel Colorful Soak Off Manicuring UV Gel Polish Permanent</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card" >
+      <img src="./images/promotion2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">    1 Box 5g Luminous Glitter Sequins Nail Gel Glow In The Dark Effect Manicuring UV Gel Polish</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card" >
+      <img src="./images/promotion3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">    1 Bottle 7ml Glow-In-Dark Macaron Gel 14 Colors Nail Polish Gel Soak Off UV Gel Varnish</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card" >
+      <img src="./images/promotion4.jpg " class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">    PRO 15ML Jelly Nude Gel Polish Translucent Manicuring UV LED Soak Off Nail Polish Semi Permanent </p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<center><a class="btn btn-dark mt-5" href="product1.html">GET MORE</a></center>
+
+</div>
+
+
+<div class="container mt-5" data-aos="fade-up"
+   
+   
+     data-aos-duration="3000">
+  <div class="row">
+    <img src="./images/bghome1.jpg" alt="">
+  </div>
+</div>
+
+
+<div class="container mt-5" data-aos="fade-up"
+   
+   
+     data-aos-duration="3000">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/promotion5.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    Pro 1 Bottle 15ml Color Trubuty Series Nail Gel Colorful Soak Off Manicuring UV Gel Polish</p>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/promotion6.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    PRO 15ML Jelly Nude Gel Polish Translucent Manicuring UV LED Soak Off Nail Polish Semi </p>
+         </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/promotion7.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    1 Bottle 10ml UV Gel Nail Polish Pink Blue Purple Glitter Soak Off Manicuring Gel Polish</p>        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/promotion8.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    1 Bottle 7ml Cat Magnetic Gel 8 Colors Laser Rainbow Nail Polish Gel Soak Off UV Varnish</p>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- new row start -->
+
+  <div class="row mt-5" data-aos="fade-up"
+   
+   
+     data-aos-duration="3000">
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/promotion9.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    1 Box 5G Reflective Sequins Gel Soak Off UV LED Nail Art Gel Varnish Color Gel</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/promotion10.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    1 Bottle 7ml Glow-In-Dark Eggshell Gel Coat Soak Off UV LED Nail Gel Varnish Function </p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/promotion11.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">     1 Bottle 7ml Fluorescent Glow-In-Dark Gel Soak Off UV LED Nail Arts Gel Varnish Luminous </p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" style="width: 100%; ">
+        <img src="./images/promotion12.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    15g UV Nail Tips Glue No Hurt Transparent Extension Nail Tips Gel</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <center><a class="btn btn-dark mt-5" href="product2.html">GET MORE</a></center>
+
+</div>
+
+
+<div class="container mt-5" data-aos="fade-up"
+   
+   
+     data-aos-duration="3000">
+  <div class="row">
+    <img src="./images/bghome2.jpg" alt="">
+  </div>
+</div>
+
+
+<div class="container mt-5" data-aos="fade-up"
+   
+   
+     data-aos-duration="3000">
+  <h3>Tools</h3>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/tool1.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">Professional Machine Electric Nail Drill Set UV Gel Remove Electric Professional Nail Tools </p>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/tool2.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    Pro Nail Lamp 54W UV LED With 36 Pcs Leds For Manicure Gel Nail Dryer Manicure Tools</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/tool3.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    Pro False Nail Mold Tips Finger Extension Tool Manicuring Accessories</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="./images/tool4.jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">    Pro 500 Pcs Nail Forms For Quick Extension Nail Gel Professional Nail Art Design </p>
+          </div>
+      </div>
+    </div>
+
+
+</div>
+<center><a  class="btn btn-dark mt-5" href="product1.html">GET MORE</a></center>
+
+  </div>
+
+
+
+  <div class="container mt-5 mb-5" data-aos="fade-up"
+   
+   
+     data-aos-duration="3000">
+    <h3>What's New</h3>
+    <div class="row ">
+      <div class="col-md-3 ">
+        <div class="card" >
+          <img src="./images/whatsnew1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">    2Pcs/Set 7ml Nail Gel Polish Cat Magnetic Colorful Thermal Nail Gel Soak Off UV Gel</p>
+              </div>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./images/whatsnew2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">    7ml Cat Magnetic Gel Polish  Colorful Reflective Glitter  Polish Used on Any Color Base</p>
+              </div>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./images/whatsnew3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">    1 Bottle 7ml Colorful Flowing Spar Cat Magnetic Gel Soak Off Manicuring UV Gel Polish</p>
+              </div>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./images/whatsnew4.jpg " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">    1 Bottle 7ml Colorful Spar Cat Magnetic Nail Gel Soak Off Manicuring UV Gel Polish</p>
+              </div>
+        </div>
+      </div>
+    </div>
+<center><a class="btn btn-dark mt-5" href="product2.html">GET MORE</a></center>
+    </div>
+    
+<div class="container mb-5 p-4" data-aos="fade-up"
+   
+   
+     data-aos-duration="3000">
+  <div class="row">
+    <center>
+      <h1 class="mb-4">ABOUT NAIL CARE</h1>
+
+    </center>
+    <div class="col-md-6 mt-4">
+      <ol type="A">
+        <li>Keep fingernails dry and clean. This prevents bacteria from growing under your fingernails. ...</li>
+        <li>Practice good nail hygiene. Use a sharp manicure scissors or clippers. ...</li>
+        <li>Use moisturizer. ...</li>
+        <li>Apply a protective layer. ..</li>
+        <li>Ask your doctor about biotin.</li>
+      </ol>
+    
+    </div>
+    <div class="col-md-6 mt-4">
+      <img style="border: 2px double gray;" src="./images/nailcare2.jpg" height="250px" width="100%" alt="">
+    </div>
+  </div>
+</div>
+
+ 
+
+<!-- containers end -->
+
+
+
+
+
+
+
+
+
+
+<!-- Starting Footer -->
+<footer class="foot container-fluid bg-dark" >
+
+  <div class="container text-white  p-3">
+  <div class="row p-1">
+  <div class="col-md-3">
+  <h3 class=" mt-4 ">QUICK LINKS</h3>
+   <ul class="list" style="padding-top: 20px;">
+     <li>
+  <a href="index.html">HOME <i class="fa-solid fa-house"></i></a>
+  
+     </li>
+     <li>
+  <a href="product1.html">PRODUCTS <i class="fa-solid fa-bag-shopping"></i></a>
+  
+     </li>
+     <li>
+  <a href="Contactus.html">CONTACT US  <i class="fa-solid fa-phone"></i></a>
+  
+     </li>
+     <li>
+  <a href="about us.html">ABOUT US<i class="fa-brands fa-angular"></i></a>
+  
+     </li>
+     <li>
+  <a href="feedback form.html">FEEDBACK <i class="fa-solid fa-comments"></i></a>
+  
+     </li>
+     <li>
+  <a href="Sign in.html">SIGN IN <i class="fa-solid fa-user"></i></a>
+  
+     </li>
+   </ul> 
+  </div>
+  <div class="col-md-3  mt-4">
+    <center><h3>ABOUT US</h4></center>
+    <br><br><br>
+    We are all natural organic nail products.we have the best nail polish that is easy to use and we have various nail design that are customer also love and also we have the best service in town.
+  </div>
+  <div class="col-md-3  mt-4 ">
+  <center><h5>FOLLOW US ON
+    <br>
+    SOCIAL MEDIA
+  </h5></center>
+  <br><br><br>
+    <ul class="icon" >
+
+   <li ><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li> 
+   <li ><a href="#"><i  class="fa-brands fa-instagram"></i></a></li> 
+   <li ><a href="#"><i class="fa-brands fa-youtube"></i></a></li> 
+   <li ><a href="#"><i class="fa-brands fa-twitter"></i></a></li> 
+</ul>  
+  </div>
+  <div class="col-md-3 mt-4" >
+    
+  <center><h5>SUBSCRIBE NEWSLETTER</h5></center>
+  <br><br><br>
+  <input style="border-radius: 5px;" class="form-control-sm mt-4 pt-1 p-2 ms-4" type="email" placeholder="Enter Email"><button style="height: 34px; width: 50px;" class="btn p-1 btn-outline-light" type="submit">SEND</button>
+  
+  </div>
+  
+  </div>
+  <hr>
+  <br>
+  <center >
+    <p >©2022  NAIL ART Copyright All Rights Reserved.</p> 
+  </center>
+  </div>
+     
+    </div>
+  </div>
+  
+  
+  </footer>
+    <!-- footer End -->
+
+
+
+<!-- top button -->
+
+<div class="row">
+  <div class="col-md-1">
+<a href="#" class="btn btn-dark fixed-bottom ms-auto mb-2 me-5 " id="topbtn" style="height: 50px; width: 50px;transition: all 0.5s ease;"><i style="font-size: 25px;" class="fa-solid fa-angle-up"></i></a>
+</div>
+</div>
+<!-- top button -->
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
+
+<!-- color -->
+</div>
+<!-- color end -->
+
+
+
+
+</body>
+
+
+
+
+</html>

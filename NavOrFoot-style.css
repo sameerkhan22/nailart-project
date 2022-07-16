@@ -1,0 +1,164 @@
+
+    i{
+        margin: 3px;
+    }
+    .fa-circle-user{
+        font-size: 16px;
+    }
+    .fa-cart-plus{
+        font-size: 16px;
+    }
+    a{
+        padding: 5px;
+        text-decoration: none;
+        color: black;    
+    }
+    li{ 
+      font-weight: bold;
+      margin: 10px;
+    }
+    footer p{
+      margin-left: 10px;
+    }
+    .fa-instagram{
+      font-size: 16px;
+    }
+    .fa-youtube{
+      font-size: 16px;
+    }
+    .email{
+      padding: 5px;
+    }
+    footer a{
+      color: white;
+    }
+    #inp{
+      width: 380px;
+    }
+    #bt{
+      width: 50px;
+      height: 38px;
+    }
+    .dropdown-menu{
+      font-size: 11px;
+    }
+    .dropdown-item{
+      margin: -10px;
+    }
+    .card .btn{
+      margin-left: 11px;
+    }
+      .card a{
+        font-size: 12px;
+      }
+    
+        /* yaha sy ly kar */
+   
+        .innerlist{
+          padding: 10px;
+          display: none;
+
+        }
+        .dropdown-item:hover + .innerlist{
+         display: block;
+        }
+        .dropdown-item{
+          transition: all 2s ease;
+          padding-left: 35px;
+        }
+        .innerlist > .nav-link{
+          display: none;
+         }
+        .innerlist:hover{
+         display: block;
+        }
+        /* yaha tak */
+        
+      .hovereffect{
+          display: block;
+          width: 0;
+          height: 3px;
+          background-color: black;
+          transition: 0.5s ease-in-out;
+         }
+         .nav-link:hover + .hovereffect{
+        width: 100%;
+         }
+         .dropdown-item > .nav-link{
+             margin-top: 0;
+             color: red !important;
+         }
+         body{
+           scroll-behavior: smooth;
+         }
+         .foot{
+           padding: 75px;
+           font-size: 12px;
+         }
+
+         .foot :hover{
+          transition: all ease 0.3s;
+          color: azure;
+        }
+        
+        header :hover{
+          color: black;
+        }
+
+        .card{ 
+          border: 2px groove gray;
+            }
+            img{
+              transition: all 0.8s ease-in-out;
+            }
+            .card:hover img{
+              transform: scale(0.9);
+            }
+    
+
+
+
+/*             
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.icon li a {
+  background: #333;
+  /* color: #666; */
+  transition: all 0.5s ease-in-out;
+}
+
+.icon li a::before {
+  border-radius: 50%;
+  background: #ffee10;
+  transition: all 0.5s ease-in-out;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.icon li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+.icon li a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
+
+.list li{
+list-style:none;
+}

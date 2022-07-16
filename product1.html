@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product1</title>
+
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="NavOrFoot-style.css">   
+    <script src="project.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <script>
+
+
+    function bothnavbar(){
+      mynavbar();
+      showbtn();
+    }
+  </script>
+  
+
+  <!-- nav fixed work -->
+  <body onload="mynavbar()" onscroll="mynavbar()">
+    <!-- nav fixed work -->
+  
+  
+<!-- header start -->
+    
+<header>
+
+  <div class="container-fluid ">
+  <div class="row">
+  
+  <div class="col-md-5">
+  <img class="ms-4 ps-1  mt-2"  src="./images/logo2.jpg"  height="40px"></img>
+  </div>
+      
+  
+  <div class="col-md-5 visually-hidden" >
+      <form class="d-flex ">
+        <input id="inp" class="form-control mt-4 " type="search products" placeholder="Search" aria-label="Search" >
+        <button id="bt" class="btn btn-dark mt-4  p-1 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>   
+      </div>
+  
+  <style>
+
+  </style>
+
+
+<div class="col-md-1 mt-4  ms-auto me-5 ">
+  <p id="emailset"></p>
+</div>
+
+  
+  <div class="col-md-1 mt-4">
+  <center><a class="hover" href="Sign in.html" ><i class="fa-solid fa-user" style="font-size: 20px;" ></i></a></center>
+  <!-- <center>SIGN IN</center> -->
+</div>  
+   
+       <nav class="navbar  navbar-expand-lg navbar-light bg-white w-100 " id="secondnavbar" style="z-index: 1;" >
+           <div class="container-fluid ">
+             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav  mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link " href="index.html" >HOME</a>
+                   <span class="hovereffect" ></span>
+                 </li>
+
+                 <li class="nav-item dropdown ">
+                   <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     BRANDS<i class="fa-solid fa-angle-down"></i>
+                   </a>
+                   <span class="hovereffect"></span>
+                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     
+                     <li><a class="dropdown-item " >nailart PRO<i class="fa-solid fa-angle-down"></i></a>
+                       
+                       <ul class="list-unstyled innerlist " >
+                         <li><a href="NGP.html" class="nav-link text-decoration-none text-dark">nail gel polish</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                     
+                         <li><a href="NT.html" class="nav-link text-decoration-none text-dark">nail TOOLS</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                         
+                       </ul>
+                     </li>
+                     
+                     
+                     <li><a class="dropdown-item" >NICOLE DIARY<i class="fa-solid fa-angle-down"></i></a>
+                       <ul class="list-unstyled innerlist" >
+                         <li><a href="ND2.html" class="nav-link text-decoration-none text-dark">ND STAMPING PLATES</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                         <li><a href="NDT2.html" class="nav-link text-decoration-none text-dark">STAMPING TOOLS</a>
+                           <span class="hovereffect"></span>
+                         </li>
+                       </ul>
+                     </li>
+                     
+                     
+                     <li><a class="dropdown-item" >UR SUGAR<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="UR3.html" class="nav-link text-decoration-none text-dark">UR EXTENSION gel</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                        <li><a href="URT3.html" class="nav-link text-decoration-none text-dark">UR nail TOOLS</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li><a class="dropdown-item" >nail art DECORATION<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="3DND4.html" class="nav-link text-decoration-none text-dark">3D nail DECORATION</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                        <li><a href="NS4.html" class="nav-link text-decoration-none text-dark">nail STICKERS</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    
+                    <li><a class="dropdown-item" >LILYCUTE<i class="fa-solid fa-angle-down"></i></a>
+                      <ul class="list-unstyled innerlist" >
+                        <li><a href="LCGP5.html" class="nav-link text-decoration-none text-dark">LC gel polish</a>
+                          <span class="hovereffect"></span>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                     
+                   </ul>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link active" href="product1.html">PRODUCTS</a>
+                  <span class="hovereffect"></span>
+                </li>
+                 <li class="nav-item">
+                   <a class="nav-link " href="feedback form.html">FEEDBACK</a>
+                   <span class="hovereffect"></span>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link "   href="Contactus.html">CONTACT US</a>
+                   <span class="hovereffect"></span>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link " href="about us.html">ABOUT US</a>
+                   <span class="hovereffect"></span>
+                 </li>
+              
+               </ul>
+             
+             </div>
+           </div>
+         </nav>
+       
+         </header>
+
+         <!-- header end -->
+
+
+
+
+
+    <!-- color start-->
+    <div style="background-color: #F2D2BD ;">
+      <!-- color div start -->
+
+
+    
+    <div class="container" ><div class="row">
+  <div class="col-md-4 mx-auto" >
+    <div class="d-flex">
+      <input onkeyup="getvalue()" class="form-control mt-5 p-2" id="input" placeholder="Search your products here.." style="border: 3px groove black;" >
+    </div>   
+    </div>
+
+  </div></div>    
+
+
+  <div class="container" >
+       <div class="row" id="productcards" >
+
+       </div>
+  </div>
+
+  <script>
+
+    let productarray=[
+      {
+        id: 1,
+        src : "./images/P1.jpg",
+        title : "born pretty jelly hard gel 60 ml camouflage color nail extension UV gel",
+        price : 10,
+        desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+      },
+      {
+        id: 2,
+        src : "./images/P2.jpg",
+        title : "LILYCUTE 7ML Jelly Nude color gel polish Translucent Manicuring UV LED Soak Off nail polish Semi Permanent",
+        price : 12,
+        desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+      },
+      {
+        id: 3,
+        src : "./images/P3.jpg",
+        title : "born pretty 10ml 6pcs/set gel polish Set rainbow series nail gel polish",
+        price : 15,
+        desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+      },
+      {
+        id: 4,
+        src : "./images/P4.jpg",
+        title : "born pretty 15g/20g Solid nail gel Canned cream Pudding gel polish",
+        price : 25,
+        desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+      },
+      {
+        id: 5,
+        src : "./images/P5.jpg",
+        title : "UR SUGAR 1 bottle 7ml gold glitter rubber Base gel Soak Off UV LED nail arts gel varnish color",
+        price : 20,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 6,
+        src : "./images/P6.jpg",
+        title : "LILYCUTE Quick Extension gel nail polish Set with uv Lamp",
+        price : 17,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 7,
+        src : "./images/P7.jpg",
+        title : "LILYCUTE 7ml Cat Magnetic Shell Pearl Thread gel nail polish",
+        price : 30,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 8,
+        src : "./images/P8.jpg",
+        title : "born pretty 15g UV nail Tips Glue No Hurt Transparent Extension nail Tips gel",
+        price : 10,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 9,
+        src : "./images/P9.jpg",
+        title : "born pretty 15g UV nail Tips Glue No Hurt Transparent Extension nail Tips gel",
+        price : 15,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 10,
+        src : "./images/P10.jpg",
+        title : "UR SUGAR 7ml gel nail polish Set Candy Sweet color series Soak Off UV LED 12PCS nail gel varnish Kit ",
+
+        price : 30,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 11,
+        src : "./images/P11.jpg",
+        title : "UR SUGAR 7ml gel nail polish Set Nude Pink Gray color series Soak Off UV LED 12PCS nail gel varnish Kit",
+        price : 17,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 12,
+        src : "./images/P12.jpg",
+        title : "LILYCUTE 7ml eggshell gold glitter nail gel colorful nail polish Soak Off UV gel nail art gel",
+        price : 32,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 13,
+        src : "./images/P13.jpg",
+        title : "UR SUGAR 1 bottle 7ml reflective rubber Base gel Soak Off UV LED nail arts gel varnish color gel",
+        price : 14,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 14,
+        src : "./images/P14.jpg",
+        title : "born pretty 10ml 6pcs/set gel polish Set Candy Shop series gel nail polish",
+        price : 15,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 15,
+        src : "./images/P15.jpg",
+        title : "LILYCUTE 7ML Neon Luminous eggshell gel nail polish Glow-In-Dark fluorescent nail gel Semi-permanent varnish All For Manicure",
+        price : 20,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+        id: 16,
+        src : "./images/P16.jpg",
+        title : "born pretty 15ml 2 PCS/Set Air Dry nail Prep Dehydrator and ACID-Free nail Pre Base Set",
+        price : 28,
+                desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+
+      },
+      {
+              id: 17,
+              src : "./images/P33.jpg",
+              title : "born pretty eggshell Texture Line pattern nail art Board Template Stainless Steel nail design",
+              price : 25,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 18,
+              src : "./images/P34.jpg",
+              title : "nail Stamping plate",
+              price : 30,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 19,
+              src : "./images/P35.jpg",
+              title : "born pretty Valentine's Day Theme pattern nail art Board Template Stainless Steel nail design",
+              price : 20,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 20,
+              src : "./images/P36.jpg",
+              title : "1 bottle 7.5ml UR SUGAR reflective fluorescent gel Soak Off nail gel colorful nail art polish gel",
+              price : 15,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 21,
+              src : "./images/P37.jpg",
+              title : "born pretty 1 bottle 7ml Glow-In-Dark eggshell gel Coat Soak Off UV LED nail gel varnish Function gel",
+              price : 18,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 22,
+              src : "./images/P38.jpg",
+              title : "3 in 1 Painting Liner art gel polish 12 colors/Set nail art Soak Off UV gel polish",
+              price : 35,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 23,
+              src : "./images/P39.jpg",
+              title : "NICOLE DIARY-287 Rectangle nail Stamping Plates Stainless Steel Geometry French nail Stamp Stencil",
+              price : 20,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 24,
+              src : "./images/P40.jpg",
+              title : "NICOLE DIARY-288 Rectangle nail Stamping Plates Stainless Steel Leaves pattern nail Stamp Stencil",
+              price : 25,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 25,
+              src : "./images/P41.jpg",
+              title : "3D nail Decals Stickers New Year nail Manicure 3D nail art Decoration Transfer",
+              price : 15,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 26,
+              src : "./images/P42.jpg",
+              title : "Valentine's Day 3D nail Decals Stickers nail Manicure 3D nail art Decoration Transfer",
+      
+              price : 10,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 27,
+              src : "./images/P43.jpg",
+              title : "born pretty 1 bottle 7ml Glow-In-Dark Macaron gel 14 colors nail polish gel Soak Off UV gel varnish",
+              price : 32,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 28,
+              src : "./images/P44.jpg",
+              title : "LILYCUTE 7ml 9D reflective Cat Magnetic nail gel Soak Off nail art gel polish Manicuring UV gel varnish",
+              price : 20,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 29,
+              src : "./images/P45.jpg",
+              title : "born pretty 2Pcs/Set 7ml nail gel polish Cat Magnetic colorful Thermal nail gel Soak Off UV gel",
+              price : 28,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 30,
+              src : "./images/P46.jpg",
+              title : "born pretty 1 bottle 7ml gel nail polish 26 colors nail gel colorful Soak Off UV gel varnish",
+              price : 35,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 31,
+              src : "./images/P47.jpg",
+              title : "1 bottle 7ml UR SUGAR Glow-in-the-dark Spider nail gel Soak Off Line Drawing Painting gel polish",
+              price : 14,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+            {
+              id: 32,
+              src : "./images/P48.jpg",
+              title : "born pretty 7ml Clear Milky White nail Extension gel Self leveling nails Quick Clear Pink nail Tips UV Led gel Soak Off",
+              price : 20,
+              desc : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tempora iste quos, fuga id optio hic ullam iure temporibus nam quod assumenda quas deserunt at. Nihil numquam tempora minima ad quidem soluta nam? Consequatur culpa, non odit cupiditate nostrum fugit laudantium dicta eveniet sed cum ad! Error ad cumque tempore, consequuntur iusto quaerat consequatur sed ex pariatur mollitia sint neque obcaecati porro dolore nesciunt. Doloribus praesentium adipisci saepe optio aspernatur, omnis aliquam voluptatibus error itaque possimus beatae minus quia vel quo nobis nemo ullam velit perferendis illum. Totam autem cupiditate, quas, quibusdam ducimus, molestias sequi non iusto quia iure culpa."
+            },
+    ]
+
+    
+
+    function showproducts(curarray){
+      document.getElementById('productcards').innerHTML = "";
+      for(var i=0;i<curarray.length;i++){
+        document.getElementById('productcards').innerHTML += `
+        
+        <div class="col-md-3 mt-5" data-aos="fade-up"
+     data-aos-duration="3000">
+            <div class="card">
+            <img src="${curarray[i].src}" width="100%" />
+          
+            <div class="card-body" style="height:75px;overflow:hidden;">
+            <p class="mt-1 p-2 text-capatlize" >${curarray[i].title}</p>
+          </div>
+          <p class="ms-4  text-success">Price : $${curarray[i].price}</p>
+            <a href="addcardpage.html" class="me-4">
+            <center><button class="btn btn-outline-dark mb-4 p-2" onclick="addtocart(${curarray[i].id})"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button >
+          </a>
+            </div>
+          </div>
+        `
+      }
+    }
+
+
+
+    showproducts(productarray); 
+
+
+    function addtocart(id){
+  let obj;
+      for(var i=0;i<productarray.length;i++){
+        if(productarray[i].id == id){
+          obj = {id: productarray[i].id ,desc :productarray[i].desc, title : productarray[i].title , src : productarray[i].src , desc : productarray[i].desc , price : productarray[i].price}
+        }
+      }
+      obj  = JSON.stringify(obj);
+      localStorage.setItem("addcard",obj);
+      
+    }
+
+
+  let newarr = [];
+    function getvalue(){
+      let data  = document.getElementById("input").value;
+      newarr = productarray.filter(function(a){
+        if(a.title.includes(data)){
+          return a.title;
+        }
+      })
+
+      showproducts(newarr);
+
+      console.log(newarr);
+    }
+
+  </script>
+<center class="">
+  <a href="#"><button class="btn btn-outline-dark mt-5 mb-5"><i class="fa-solid fa-angle-left"></i>PREV..</button></a>
+  <a href="#"><button class="btn btn-dark mt-5 mb-5">1</button></a>
+  <a href="product2.html"><button class="btn btn-outline-dark mt-5 mb-5">NEXT..<i class="fa-solid fa-angle-right"></i></button></a>
+</center>
+
+
+<style>
+  
+</style>
+
+
+
+
+
+
+
+<!-- Starting Footer -->
+<footer class="foot container-fluid bg-dark" >
+
+  <div class="container text-white  p-3">
+  <div class="row p-1">
+  <div class="col-md-3">
+  <h3 class=" mt-4 ">QUICK LINKS</h3>
+   <ul class="list" style="padding-top: 20px;">
+     <li>
+  <a href="index.html">HOME <i class="fa-solid fa-house"></i></a>
+  
+     </li>
+     <li>
+  <a href="product1.html">PRODUCTS <i class="fa-solid fa-bag-shopping"></i></a>
+  
+     </li>
+     <li>
+  <a href="Contactus.html">CONTACT US  <i class="fa-solid fa-phone"></i></a>
+  
+     </li>
+     <li>
+  <a href="about us.html">ABOUT US<i class="fa-brands fa-angular"></i></a>
+  
+     </li>
+     <li>
+  <a href="feedback form.html">FEEDBACK <i class="fa-solid fa-comments"></i></a>
+  
+     </li>
+     <li>
+  <a href="Sign in.html">SIGN IN <i class="fa-solid fa-user"></i></a>
+  
+     </li>
+   </ul> 
+  </div>
+  <div class="col-md-3  mt-4">
+    <center><h3>ABOUT US</h4></center>
+    <br><br><br>
+    We are all natural organic nail products.we have the best nail polish that is easy to use and we have various nail design that are customer also love and also we have the best service in town.
+  </div>
+  <div class="col-md-3  mt-4 ">
+  <center><h5>FOLLOW US ON
+    <br>
+    SOCIAL MEDIA
+  </h5></center>
+  <br><br><br>
+    <ul class="icon" >
+
+   <li ><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li> 
+   <li ><a href="#"><i  class="fa-brands fa-instagram"></i></a></li> 
+   <li ><a href="#"><i class="fa-brands fa-youtube"></i></a></li> 
+   <li ><a href="#"><i class="fa-brands fa-twitter"></i></a></li> 
+</ul>  
+  </div>
+  <div class="col-md-3 mt-4" >
+    
+  <center><h5>SUBSCRIBE NEWSLETTER</h5></center>
+  <br><br><br>
+  <input style="border-radius: 5px;" class="form-control-sm mt-4 pt-1 p-2 ms-4" type="email" placeholder="Enter Email"><button style="height: 34px; width: 50px;" class="btn p-1 btn-outline-light" type="submit">SEND</button>
+  
+  </div>
+  
+  </div>
+  <hr>
+  <br>
+  <center >
+    <p >©2022  NAIL ART Copyright All Rights Reserved.</p> 
+  </center>
+  </div>
+     
+    </div>
+  </div>
+  
+  
+  </footer>
+    <!-- footer End -->
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  
+
+
+
+    <!-- color -->
+  </div>
+  <!-- color end -->
+  
+
+<!-- top button -->
+
+<div class="row">
+  <div class="col-md-1">
+<a href="#" class="btn btn-dark fixed-bottom ms-auto mb-5 me-5 " id="topbtn" style="height: 50px; width: 50px;transition: all 0.5s ease;"><i style="font-size: 25px;" class="fa-solid fa-angle-up"></i></a>
+</div>
+</div>
+<!-- top button -->
+
+
+
+
+</body>
+
+
+
+
+</html>
